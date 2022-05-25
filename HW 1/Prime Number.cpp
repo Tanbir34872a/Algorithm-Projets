@@ -9,7 +9,7 @@ void prime_find_linear(int val){
 }
 
 void prime_find_rooted(int val){
-    for(int a = 2; a < sqrt(val); a++){
+    for(int a = 2; a <= sqrt(val); a++){
         if(val % a == 0){cout<<"It's not a prime number";return;}
     }
     cout<<"It's a prime number";
